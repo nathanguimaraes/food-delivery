@@ -24,7 +24,7 @@ Este é um projeto de website de pedidos de comida desenvolvido utilizando React
 - Registro e Login
 - Visualização do menu de comida
 - Adição de itens ao carrinho
-- Finalização de pedidos com pagamento via Stripe
+- Finalização de pedidos com pagamento via XXX
 - Histórico de pedidos
 
 ### Administradores
@@ -44,61 +44,26 @@ Este é um projeto de website de pedidos de comida desenvolvido utilizando React
    git clone https://github.com/seu-usuario/seu-repositorio.git
    cd seu-repositorio
 
-    Instale as dependências do backend
-
-    bash
-
+```bash
 cd backend
 npm install
-
-Instale as dependências do frontend
-
 bash
+-Instale as dependências do frontend
 
+```bash
 cd ../frontend
 npm install
 
-Configure as variáveis de ambiente
-
-Crie um arquivo .env na pasta backend com as seguintes variáveis:
-
-env
-
-MONGO_URI=sua-url-mongodb
-STRIPE_SECRET_KEY=sua-chave-secreta-stripe
-
-Crie um arquivo .env na pasta frontend com as seguintes variáveis (se necessário):
-
-env
-
-REACT_APP_STRIPE_PUBLIC_KEY=sua-chave-publica-stripe
-
-Inicie o servidor backend
-
-bash
-
-cd backend
-npm start
 
 Inicie o servidor frontend
 
-bash
+
 
     cd ../frontend
     npm start
 
-Estrutura do Projeto
+##Estrutura do Projeto
 
-bash
-
-.
-├── backend
-│   ├── controllers
-│   ├── models
-│   ├── routes
-│   ├── .env
-│   ├── server.js
-│   └── ...
 └── frontend
     ├── src
     │   ├── components
@@ -108,3 +73,4 @@ bash
     ├── public
     ├── .env
     └── ...
+
