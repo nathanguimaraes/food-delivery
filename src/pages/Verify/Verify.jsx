@@ -10,6 +10,7 @@ const Verify = () => {
     const[searchParams, setSearchParams] = useSearchParams();
     const success = searchParams.get("success")
     const orderId = searchParams.get("orderId")
+
     const {url} = useContext (StoreContext);
     const navigate = useNavigate();
 
@@ -28,7 +29,7 @@ const Verify = () => {
     },[])
 
   return (
-    <div className='verify' >
+    <div className='verify'>
       <div className="spinner">
 
       </div>
